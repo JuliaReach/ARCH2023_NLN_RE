@@ -5,10 +5,42 @@ This is the JuliaReach repeatability evaluation (RE) package for the ARCH-COMP
 of the 7th International Competition on Verifying Continuous and Hybrid Systems
 (ARCH-COMP '23).
 
-*Note:* Running the full benchmark suite should take no more than four hours
-with a reasonable internet connection.
+To cite the work, you can use:
+
+```
+@inproceedings{GerettiAABCFILMMSWZ23,
+  author    = {Luca Geretti and
+               Julien Alexandre Dit Sandretto and
+               Matthias Althoff and
+               Luis Benet and
+               Pieter Collins and
+               Marcelo Forets and
+               Elena Ivanova and
+               Yangge Li and
+               Sayan Mitra and
+               Stefan Mitsch and
+               Christian Schilling and
+               Mark Wetzlinger and
+               Daniel Zhuang},
+  editor    = {Goran Frehse and
+               Matthias Althoff},
+  title     = {{ARCH-COMP23} Category Report: Continuous and Hybrid Systems with
+               Nonlinear Dynamics},
+  booktitle = {{ARCH}},
+  series    = {EPiC Series in Computing},
+  volume    = {96},
+  pages     = {61--88},
+  publisher = {EasyChair},
+  year      = {2023},
+  url       = {https://doi.org/10.29007/93f2},
+  doi       = {10.29007/93f2}
+}
+```
 
 ## Installation
+
+*Note:* Running the full benchmark suite should take no more than four hours
+with a reasonable internet connection.
 
 There are two ways to install and run this RE: either using the Julia script or
 using the Docker script.
